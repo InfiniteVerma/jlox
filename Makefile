@@ -38,6 +38,8 @@ generate_ast: $(CLASS_FILE_TOOL)
 clean:
 	rm -f $(SRC_DIR_LOX)/*.class
 	rm -f $(SRC_DIR_TOOL)/*.class
+	#rm $(SRC_DIR_LOX)/Expr.java
+	#rm $(SRC_DIR_LOX)/Stmt.java
 
 # Rule to help with usage
 help:
